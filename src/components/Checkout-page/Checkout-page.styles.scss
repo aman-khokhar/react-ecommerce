@@ -1,0 +1,28 @@
+.checkout-container {
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+
+  .checkout-text {
+    p {
+      font-size: 1rem;
+      font-weight: normal;
+    }
+  }
+
+  .checkout-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    button {
+      width: 600px;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 10px;
+      margin-right: 5px;
+    }
+  }
+}
